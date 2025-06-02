@@ -66,7 +66,7 @@ export default function Component() {
   ]
 
   // ========================================
-  // 🎯 EASY TO EDIT PROJECTS SECTION
+  // ðŸŽ¯ EASY TO EDIT PROJECTS SECTION
   // ========================================
   // Just modify the projects below to customize your portfolio!
 
@@ -423,7 +423,7 @@ export default function Component() {
                     </div>
                     <div className="flex">
                       <span className="text-gray-400 w-20">Status:</span>
-                      <span className="text-green-400 animate-pulse">● Online</span>
+                      <span className="text-green-400 animate-pulse">â— Online</span>
                     </div>
                     <div className="flex">
                       <span className="text-gray-400 w-20">Projects:</span>
@@ -684,9 +684,9 @@ export default function Component() {
                     </CardContent>
                   </Card>
                 )
-             })}
-           </div>
-        </section>     
+              })}
+            </div>
+        </section>
         {/* Goals Section */}
         <section id="goals" className="py-20 border-t border-gray-800">
           <div className="container mx-auto px-4 max-w-4xl">
@@ -713,7 +713,7 @@ export default function Component() {
                   {[
                     { year: "2024", label: "START", icon: Sparkles, desc: "Begin journey" },
                     { year: "2028", label: "GRADUATE", icon: Trophy, desc: "Complete studies" },
-                    { year: "∞", label: "IMPACT", icon: Rocket, desc: "Change the world" },
+                    { year: "âˆž", label: "IMPACT", icon: Rocket, desc: "Change the world" },
                   ].map((milestone, index) => (
                     <div
                       key={milestone.year}
@@ -799,11 +799,11 @@ export default function Component() {
             <div className="font-mono text-sm text-gray-400 mb-4">
               <span className="text-green-400">yuri@portfolio:~$</span> echo "Thank you for visiting!"
             </div>
-            <p className="text-gray-400 mb-2 font-mono">© 2024 YURI_AMPARADO_EGIPTO</p>
+            <p className="text-gray-400 mb-2 font-mono">Â© 2024 YURI_AMPARADO_EGIPTO</p>
             <p className="text-gray-600 text-sm font-mono">{"// Building the future, one line of code at a time"}</p>
             <div className="mt-4 flex justify-center items-center gap-4 text-xs font-mono text-gray-600">
-              <span>Made with ❤️ and lots of ☕</span>
-              <span>•</span>
+              <span>Made with â¤ï¸ and lots of â˜•</span>
+              <span>â€¢</span>
               <span>Fully customizable</span>
             </div>
           </div>
