@@ -686,20 +686,6 @@ export default function Component() {
                 )
               })}
             </div>
-            /*
-
-            {/* Instructions for editing */}
-            <div className="text-center mt-12 p-6 border border-gray-800 rounded-lg bg-gray-900/20">
-              <div className="font-mono text-sm text-gray-400 mb-2">
-                <span className="text-green-400">// HOW TO ADD/EDIT PROJECTS:</span>
-              </div>
-              <p className="text-gray-500 font-mono text-xs">
-                Find the "projects" array in the code and modify the objects to customize your portfolio!
-              </p>
-            </div>
-          </div>
-        </section>
-        */
         {/* Goals Section */}
         <section id="goals" className="py-20 border-t border-gray-800">
           <div className="container mx-auto px-4 max-w-4xl">
