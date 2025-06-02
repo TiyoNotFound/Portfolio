@@ -66,7 +66,7 @@ export default function Component() {
   ]
 
   // ========================================
-  // ðŸŽ¯ EASY TO EDIT PROJECTS SECTION
+  // 🎯 EASY TO EDIT PROJECTS SECTION
   // ========================================
   // Just modify the projects below to customize your portfolio!
 
@@ -423,7 +423,7 @@ export default function Component() {
                     </div>
                     <div className="flex">
                       <span className="text-gray-400 w-20">Status:</span>
-                      <span className="text-green-400 animate-pulse">â— Online</span>
+                      <span className="text-green-400 animate-pulse">● Online</span>
                     </div>
                     <div className="flex">
                       <span className="text-gray-400 w-20">Projects:</span>
@@ -581,8 +581,7 @@ export default function Component() {
                 <span className="text-green-400">yuri@portfolio:~$</span> ls -la projects/
               </div>
               <h2 className="text-5xl font-bold mb-4 font-mono">MY_PROJECTS</h2>
-              <div className="w-32 h-0.5 bg-white mx-auto mb-6" />
-              <p className="text-gray-400 font-mono text-sm">// Easy to customize in the code</p>
+              <div className="w-32 h-0.5 bg-white mx-auto" />
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -686,7 +685,9 @@ export default function Component() {
                 )
               })}
             </div>
+          </div>
         </section>
+
         {/* Goals Section */}
         <section id="goals" className="py-20 border-t border-gray-800">
           <div className="container mx-auto px-4 max-w-4xl">
@@ -713,7 +714,7 @@ export default function Component() {
                   {[
                     { year: "2024", label: "START", icon: Sparkles, desc: "Begin journey" },
                     { year: "2028", label: "GRADUATE", icon: Trophy, desc: "Complete studies" },
-                    { year: "âˆž", label: "IMPACT", icon: Rocket, desc: "Change the world" },
+                    { year: "∞", label: "IMPACT", icon: Rocket, desc: "Change the world" },
                   ].map((milestone, index) => (
                     <div
                       key={milestone.year}
@@ -799,11 +800,11 @@ export default function Component() {
             <div className="font-mono text-sm text-gray-400 mb-4">
               <span className="text-green-400">yuri@portfolio:~$</span> echo "Thank you for visiting!"
             </div>
-            <p className="text-gray-400 mb-2 font-mono">Â© 2024 YURI_AMPARADO_EGIPTO</p>
+            <p className="text-gray-400 mb-2 font-mono">© 2024 YURI_AMPARADO_EGIPTO</p>
             <p className="text-gray-600 text-sm font-mono">{"// Building the future, one line of code at a time"}</p>
             <div className="mt-4 flex justify-center items-center gap-4 text-xs font-mono text-gray-600">
-              <span>Made with â¤ï¸ and lots of â˜•</span>
-              <span>â€¢</span>
+              <span>Made with ❤️ and lots of ☕</span>
+              <span>•</span>
               <span>Fully customizable</span>
             </div>
           </div>
