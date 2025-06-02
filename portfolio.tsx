@@ -685,7 +685,6 @@ export default function Component() {
                   </Card>
                 )
               })}
-            </div>
         {/* Goals Section */}
         <section id="goals" className="py-20 border-t border-gray-800">
           <div className="container mx-auto px-4 max-w-4xl">
