@@ -57,12 +57,12 @@ export default function Component() {
 
   // Skills data with progress
   const skills = [
-    { name: "JavaScript", level: 85, category: "Frontend" },
-    { name: "React", level: 80, category: "Frontend" },
-    { name: "HTML/CSS", level: 90, category: "Frontend" },
+    { name: "JavaScript", level: 32, category: "Frontend" },
+    { name: "React", level: 26, category: "Frontend" },
+    { name: "HTML/CSS", level: 67, category: "Frontend" },
     { name: "Node.js", level: 70, category: "Backend" },
-    { name: "Python", level: 75, category: "Backend" },
-    { name: "Git", level: 85, category: "Tools" },
+    { name: "Python", level: 80, category: "Backend" },
+    { name: "Git", level: 95, category: "Tools" },
   ]
 
   // ========================================
@@ -695,7 +695,7 @@ export default function Component() {
               <div className="font-mono text-sm text-gray-400 mb-4">
                 <span className="text-green-400">yuri@portfolio:~$</span> cat roadmap.md
               </div>
-              <h2 className="text-5xl font-bold mb-4 font-mono">ROADMAP_2024</h2>
+              <h2 className="text-5xl font-bold mb-4 font-mono">ROADMAP_2025</h2>
               <div className="w-32 h-0.5 bg-white mx-auto" />
             </div>
 
@@ -712,8 +712,8 @@ export default function Component() {
 
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   {[
-                    { year: "2024", label: "START", icon: Sparkles, desc: "Begin journey" },
-                    { year: "2028", label: "GRADUATE", icon: Trophy, desc: "Complete studies" },
+                    { year: "2025", label: "START", icon: Sparkles, desc: "Begin journey" },
+                    { year: "2030 Maybe?", label: "GRADUATE", icon: Trophy, desc: "Complete studies" },
                     { year: "∞", label: "IMPACT", icon: Rocket, desc: "Change the world" },
                   ].map((milestone, index) => (
                     <div
@@ -754,21 +754,21 @@ export default function Component() {
                 {
                   icon: Github,
                   label: "GITHUB",
-                  href: "https://github.com/yuriamparado",
+                  href: "https://github.com/TiyoNotFound",
                   description: "View my code",
                   stats: `${projects.length} repositories`,
                 },
                 {
                   icon: Facebook,
                   label: "FACEBOOK",
-                  href: "https://facebook.com/yuriamparado",
+                  href: "https://www.facebook.com/share/19L2aLCnbX/",
                   description: "Connect socially",
                   stats: "Personal updates",
                 },
                 {
                   icon: Instagram,
                   label: "INSTAGRAM",
-                  href: "https://instagram.com/yuriamparado",
+                  href: "https://www.instagram.com/you.riieg?igsh=cWRvOXAwcTJza3N2",
                   description: "See my journey",
                   stats: "Behind the scenes",
                 },
@@ -800,7 +800,7 @@ export default function Component() {
             <div className="font-mono text-sm text-gray-400 mb-4">
               <span className="text-green-400">yuri@portfolio:~$</span> echo "Thank you for visiting!"
             </div>
-            <p className="text-gray-400 mb-2 font-mono">© 2024 YURI_AMPARADO_EGIPTO</p>
+            <p className="text-gray-400 mb-2 font-mono">© 2025 Yuri A. Egipto</p>
             <p className="text-gray-600 text-sm font-mono">{"// Building the future, one line of code at a time"}</p>
             <div className="mt-4 flex justify-center items-center gap-4 text-xs font-mono text-gray-600">
               <span>Made with ❤️ and lots of ☕</span>
